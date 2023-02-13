@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="div1">
+    <div class="education"><p>განათლება</p></div>
+    <div class="page"><p>3/3</p></div>
+    <div class="college"><p>სასწავლებელი</p></div>
+    <div class="date"><p>დამთავრების რიცხვი</p></div>
+    <div class="quality"><p>ხარისხი</p></div>
+    <div class="descr"><p>აღწერა</p></div>
+    <div class="request"><p>მინიმუმ 2 სიმბოლო</p></div>
+ 
+    <div class="line"><img src="Line 12.png" alt="line"></div>
+    <div class="line1"></div>
+
+    <div>
+        <form id="form" action="#">
+           
+            <div class="inputBox11">
+    <input type="text" id="school" placeholder="სასწავლებელი"  onkeydown="validation11()" oninput="getValue11()"><br/>
+    </div>
+    </form>
+    </div>
+    <input id="date" type="date" oninput="getValue13()"><br/>
+    <input id="edu" type="text" placeholder="განათლების აღწერა" oninput="getValue14()"><br/>
+    
+    <select name="format" id="degree" oninput="getValue12()">
+        <option selected disabled>აირჩიეთ ხარისხი</option>
+    <option value="pdf1">საშუალო სკოლის დიპლომი</option>
+    <option value="pdf2">ზოგადსაგანმანათლებლო დიპლომი</option>
+    <option value="pdf3">ბაკალავრი</option>
+    <option value="pdf4">მაგისტრი</option>
+    <option value="pdf">დოქტორი</option>
+    <option value="pdf5">ასოცირებული ხარისხი</option>
+    <option value="pdf6">სტუდენტი</option>
+    <option value="pdf7">კოლეჯი( ხარისხის გარეშე)</option>
+    <option value="pdf8">სხვა</option>
+</select>
+</div>
+
+    
+<button class="other">სხვა სასწავლებლის დამატება</button>
+<a href="file:///Users/mariamfolodashvili/Desktop/resume/3/index3.html">
+<button class="back">უკან</button>
+</a>
+<button class="next">დასრულება</button>
+<a href="file:///Users/mariamfolodashvili/Desktop/resume/3/index3.html">
+<div class="buto"><button class="vectori"> 
+    <img src="Vector.png" > </button>
+</a>
+</div>
+</div>
+
+    <div class="div2">
+        <span id="result11"></span>
+        <span id="result12"></span>
+        <span id="result13"></span>
+        <span id="result14"></span>
+</div>
+<script src="script4.js" defer></script>
+</body>
+</html>

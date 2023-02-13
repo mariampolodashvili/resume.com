@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="div1">
+<div class="page"><p>1/3</p></div>
+<div class="info"> <p>პირადი ინფო</p> </div>
+<div class="name"><p>სახელი </p> </div>
+<div class="username"><p> გვარი</p> </div>
+<div class="photo"> <p> პირადი ფოტოს ატვირთვა </p> </div>
+<div class="about"> <p>ჩემ შესახებ (არასავალდებულო)</p> </div>
+<div class="mail"> <p>ელ.ფოსტა</p> </div>
+<div class="number"><p>მობილურის ნომერი</p> </div>
+
+<div class="request1"><p>მინიმუმ 2 ასო, ქართული ასოები</p> </div>
+<div class="request2"><p>მინიმუმ 2 ასო, ქართული ასოები</p> </div>
+<div class="request3"><p>უნდა მთავრდებოდეს @redberry.ge-თი</p> </div>
+<div class="request4"><p>უნდა აკმაყოფილედეს ქართული მობილური ნომრის ფორმატს</p> </div>
+
+
+<div class="line"><img src="line.png" alt="line"></div>
+
+<div>
+    <form id="form" action="#">
+       
+        <div class="inputBox">
+<input type="text" id="saxeli" onkeydown="validation()" oninput="getValue1()"><br/>
+</div>
+
+<div class="inputBox2">
+    <input type="text" id="gvari" onkeydown="validation2()" oninput="getValue2()"><br/>
+    </div>
+
+
+<div class="inputBox4">
+        <input type="text" id="gmail" onkeydown="validation4()" oninput="getValue4()"><br/>
+        </div>
+
+<div class="inputBox5">
+            <input type="text" id="nomeri" onkeydown="validation5()" oninput="getValue5()"><br/>
+            </div>
+
+</form>
+</div>
+ 
+<input type="text" id="shesaxeb" oninput="getValue3()"><br/> 
+
+
+ <div class="conteiner">
+        <figure class="image-conteiner">
+            <figcaption id="file-name">
+         </figcaption>
+        </figure>
+    <input type="file" id="upload-button" accept="image/*">
+    <label for="upload-button"> 
+        ატვირთვა
+    </label>
+</div>
+
+<a href="file:///Users/mariamfolodashvili/Desktop/resume/3/index3.html">
+<button id="next"> შემდეგი </button>
+</a>
+<div class="buto"> 
+    <a href="file:///Users/mariamfolodashvili/Desktop/resume/1/index1.html">
+    <button class="vectori"> 
+    <img src="Vector.png" > </button>
+</a>
+</div>
+</div>
+<div class="div2">
+    <span id="result1"></span>
+    <span id="result2"></span>
+    <span id="result3"></span>
+    <span id="result4"></span>
+    <span id="result5"></span>
+    <img id="chosen-image">
+</div>
+<script src="script2.js" defer></script>
+
+</body>
+</html>

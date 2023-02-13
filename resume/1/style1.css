@@ -1,0 +1,63 @@
+body {
+width: 1920px;
+height: 1080px;
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background-image: url(cover.png);
+}
+
+#logo2 {
+position: absolute;
+width: 236px;
+height: 38px;
+left: 70px;
+top: 25px;
+background: url(LOGO-02);
+}
+#logo4 {
+position: absolute;
+width: 299px;
+height: 299px;
+left: 1076px;
+top: 473px;
+background: url(LOGO-40);
+mix-blend-mode: multiply;
+}
+#line {
+    position: absolute;
+    width: 1780px;
+    height: 1px;
+    left: 70px;
+    right: 70px;
+    top: 89px;
+    background-color: #1a1a1a;
+
+}
+.button {
+padding: 18px 60px;
+gap: 20px;
+position: absolute;
+width: 464px;
+height: 60px;
+left: calc(50% - 464px/2);
+top: 513px;
+border-radius: 8px;
+background-color: black;
+color: aliceblue;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+font-weight: 500px;
+font-size: 20px;
+font-style: normal;
+font-family: 'Helvetica Neue';
+line-height: 24px;
+flex:none;
+order: 0;
+flex-grow: 0;
+}
+
+

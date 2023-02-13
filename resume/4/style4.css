@@ -1,0 +1,437 @@
+body {
+    position: absolute;
+    width:1920px;
+    height: 1080px;
+}
+.div1 {
+    position: absolute;
+    width: 1098px;
+    height: 1080px;
+    background-color: whitesmoke;
+}
+.div2 {
+    position: absolute;
+    width: 822px;
+    height: 1080px;
+    right: 0px;
+    left:1098px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.education {
+    position: absolute;
+width: 153px;
+height: 29px;
+left: 149px;
+top: 47px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+
+color: #1A1A1A;
+
+}
+.college {
+    width: 798px;
+height: 21px;
+position: absolute;
+top: 165px;
+left: 150px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+
+display: flex;
+align-items: center;
+
+color: #000000;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.quality {
+    position: absolute;
+    top: 302px;
+    left: 150px;
+    width: 371px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+
+display: flex;
+align-items: center;
+
+color: #000000;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.date {
+    position: absolute;
+    top: 302px;
+    left: 577px;
+    width: 371px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+display: flex;
+align-items: center;
+color: #000000;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.descr {
+    position: absolute;
+    top: 413px;
+    left: 150px;
+    width: 798px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #000000;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.page {
+    position: absolute;
+    width: 29px;
+    height: 24px;
+    left: 920px;
+    top: 49px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;    
+    text-align: right;
+
+    color: #1A1A1A;
+}
+#school {
+    box-sizing: border-box;
+width: 798px;
+height: 48px;
+position: absolute;
+top: 194px;
+left: 150px;
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 4px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+#degree {
+    box-sizing: border-box;
+
+width: 371px;
+height: 48px;
+position: absolute;
+top: 331px;
+left: 150px;
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 4px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+} 
+#date {
+    position: absolute;
+    top: 331px;
+    left: 577px;
+    box-sizing: border-box;
+
+width: 371px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 4px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+ #edu {
+position: absolute;
+top: 442px;
+left: 150px;
+box-sizing: border-box;
+width: 798px;
+height: 179px;
+background: #FFFFFF;
+border: 1px solid #BCBCBC;
+border-radius: 4px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+}
+.request {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    width: 798px;
+height: 21px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #2E2E2E;
+}
+.other {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 60px;
+gap: 20px;
+
+position: absolute;
+width: 289px;
+height: 48px;
+left: 150px;
+top: 719px;
+
+background: #62A1EB;
+border-radius: 4px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.back {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 60px;
+gap: 20px;
+
+position: absolute;
+width: 113px;
+height: 48px;
+left: 149px;
+bottom: 65px;
+
+background: #6B40E3;
+border-radius: 4px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+justify-content:center;
+align-content: center;
+
+
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.next {
+    position: absolute;
+    top: 967px;
+    left: 797px;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 60px;
+gap: 20px;
+width: 151px;
+height: 48px;
+right: 972px;
+bottom: 65px;
+
+background: #6B40E3;
+border-radius: 4px;
+
+width: 112px;
+height: 20px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+justify-content:center;
+align-content: center;
+
+
+letter-spacing: 0.08em;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.vectori {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 48px;
+    top: 45px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border-right: #FFFFFF;
+    border-bottom: #FFFFFF;
+    border-radius: 40px;
+  
+}
+.line {
+    position: absolute;
+    width: 798px;
+    height: 0px;
+    left: 150px;
+    top: 88px;
+    background-color: #1a1a1a;
+    }
+    
+    .line1 {
+position: absolute;
+width: 798px;
+height: 0px;
+left: 150px;
+top: 674px;
+border: 1px solid #C1C1C1;
+}
+#result11 {
+    position: absolute;
+width: 349px;
+height: 20px;
+left: 80px;
+top: 625px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #1A1A1A;
+}
+#result12 {
+    position: absolute;
+width: 81px;
+height: 20px;
+left: 445px;
+top: 625px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #1A1A1A;
+
+}
+#result13 {
+    position: absolute;
+width: 84px;
+height: 19px;
+left: 80px;
+top: 652px;
+
+font-family: 'Helvetica Neue';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #919191;
+}
+#result14 {
+    position: absolute;
+width: 662px;
+height: 88px;
+left: 80px;
+top: 687px;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+text-transform: lowercase;
+
+color: #000000;
+
+}
+
+#form.invalid .inputBox11:before  {
+    content: '';
+    position: absolute;
+    top: 203px;
+    left: 950.75px;
+
+width: 34px;
+    height: 29px;
+    background: url(invalid.png);
+    background-size: cover;
+    z-index: 1000;
+}
+#form.valid .inputBox11:before  {
+    content: '';
+    position: absolute;
+    top: 205px;
+    left: 920.75px;
+
+width: 23px;
+    height: 23px;
+    background: url(valid.png);
+    background-size: cover;
+    z-index: 1000;
+}
